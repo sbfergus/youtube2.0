@@ -13,7 +13,6 @@ const Feed = () => {
       setVideos(data.items)
     );
   }, [selectedCategory]);
-  console.log(process.env.REACT_APP_API_KEY);
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
