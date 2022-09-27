@@ -28,7 +28,10 @@ const VideoCard = ({
         <CardMedia
           alt={snippet?.title}
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
-          sx={{ width: { xs: "100%", sm: "358px" }, height: "180px" }}
+          sx={{
+            width: { xs: "100%", sm: "358px", md: "320px" },
+            height: "180px",
+          }}
         />
       </Link>
       <CardContent sx={{ backgroundColor: "#1e1e1e", height: "106px" }}>
