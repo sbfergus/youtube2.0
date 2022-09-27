@@ -30,7 +30,7 @@ const SearchFeed = () => {
       </Typography>
       <Box display="flex" width="80%" sx={{ margin: "auto" }}>
         {/* <Box sx={{ mr: { sm: "100px" } }} /> */}
-        {<Videos videos={videos} />}
+        <Videos videos={videos} />
       </Box>
     </Box>
   );
