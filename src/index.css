@@ -34,6 +34,12 @@ a {
   color: white !important;
 }
 
+.dishLogo {
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
 .react-player {
   height: 77vh !important;
   width: 100% !important;
