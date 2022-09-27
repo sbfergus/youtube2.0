@@ -12,7 +12,6 @@ import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 import SatelliteAltIcon from "@mui/icons-material/SatelliteAlt";
-import DishLogo from "./logos/dish.png";
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
@@ -23,7 +22,6 @@ export const categories = [
   {
     name: "Dish Network",
     icon: <SatelliteAltIcon />,
-    // <img src={DishLogo} className="dishLogo" />
   },
   {
     name: "Sling TV",
