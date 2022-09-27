@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import { Box, Typography, Stack } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
 
-import { Videos } from "./";
+import { Videos, Loader } from "./";
 import { fetchFromAPI } from "../utils/fetchFromApi";
 
 const VideoDetail = () => {
@@ -21,7 +21,7 @@ const VideoDetail = () => {
     );
   }, [id]);
 
-  if (!videoDetail?.snippet) return "Loading...";
+  if (!videoDetail?.snippet) return <Loader />;
 
   const {
     snippet: { title, channelId, channelTitle },
@@ -38,7 +38,7 @@ const VideoDetail = () => {
               className="react-player"
               controls
             />
-            <Typography color="#fff" variant="h5" fontWeight="bold">
+            <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>
               {title}
             </Typography>
             <Stack

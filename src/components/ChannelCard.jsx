@@ -1,10 +1,4 @@
-import {
-  borderRadius,
-  Box,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Box, CardContent, CardMedia, Typography } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
@@ -52,10 +46,10 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
           <CheckCircle sx={{ fontSize: 12, color: "gray", ml: "5px" }} />
         </Typography>
         {channelDetail?.statistics?.subscriberCount && (
-          <Typography>
+          <Typography sx={{ fontSize: "15px", fontWeight: 500, color: "gray" }}>
             {parseInt(
               channelDetail?.statistics?.subscriberCount
-            ).toLocaleString()}{" "}
+            ).toLocaleString("en-US")}
             Subscribers
           </Typography>
         )}
