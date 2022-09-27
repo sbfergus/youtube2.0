@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/youtube2.0/static/css/main.fd957262.css",
-    "main.js": "/youtube2.0/static/js/main.96ca63f2.js",
+    "main.js": "/youtube2.0/static/js/main.dfee6b34.js",
     "static/media/DISH-corp.jpg": "/youtube2.0/static/media/DISH-corp.181ed33c20e85c921cad.jpg",
     "index.html": "/youtube2.0/index.html",
     "main.fd957262.css.map": "/youtube2.0/static/css/main.fd957262.css.map",
-    "main.96ca63f2.js.map": "/youtube2.0/static/js/main.96ca63f2.js.map"
+    "main.dfee6b34.js.map": "/youtube2.0/static/js/main.dfee6b34.js.map"
   },
   "entrypoints": [
     "static/css/main.fd957262.css",
-    "static/js/main.96ca63f2.js"
+    "static/js/main.dfee6b34.js"
   ]
 }
