@@ -6,7 +6,7 @@ const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 const options = {
     url: BASE_URL,
     params: {
-        maxResults: '50'
+        maxResults: '48'
     },
     headers: {
         'X-RapidAPI-Key': "cbf93f50c0mshe3f948be30aeef0p110453jsn29d15e377c7a",

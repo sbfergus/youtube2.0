@@ -89,11 +89,11 @@ export const categories = [
   },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoThumbnailUrl =
+  "https://cdn.pixabay.com/photo/2016/11/18/11/17/youtube-1834016_960_720.png";
+export const demoChannelUrl = "/channel/youtube";
+export const demoVideoUrl = "/video/oT1f39lgQdk";
+export const demoChannelTitle = "YouTube";
+export const demoVideoTitle = "Fireworks!";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
